@@ -1,0 +1,28 @@
+h1 {
+  color: #000000;
+  size: 18px;
+  font-weight: 400;
+  background: #eaeaca;
+}
+p {
+  color: #707070;
+  size: 14px;
+  font-style: italic;
+  line-height: 16px;
+  text-align: left;
+}
+h2 {
+  color: #000000;
+  size: 18px;
+  font-weight: 400;
+  background: #eaeaca;
+}
+a {
+  text-decoration: none;
+  color: #7aecda;
+  size: 16px;
+
+}
+body {
+  background: #ffffe4;
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Работа с бд</title>
+</head>
+<body>
+
+<form action="/login/" method="POST">
+    <fieldset>
+        <legend>Истории из Базы Данных</legend>
+        <p>
+            <label>
+                <input type="text" name="db_id" value="{{ db_id }}" readonly>
+                Id записи
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="text" name="caption" value="{{ caption }}" placeholder="Title">
+                Название истории
+            </label>
+        </p>
+         <p>
+            <label>
+                <input type="text" name="author" value="{{ author }}" placeholder="Text">
+                Текст истории
+            </label>
+        </p>
+         <p>
+            <label>
+                <input type="checkbox" name="visible" {% if visible %} checked {% endif %}>
+                Видимый / Невидимый
+            </label>
+        </p>
+         <p>
+            <label>
+                <input type="password" name="password" placeholder="Password">
+                Пароль администратора
+            </label>
+        </p>
+    </fieldset>
+    <p>
+        <input type="submit" value="Обновить данные">
+    </p>
+</form>
+
+
+</body>
+</html>

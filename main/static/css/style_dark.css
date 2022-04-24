@@ -1,0 +1,28 @@
+h1 {
+  color: blanchedalmond;
+  size: 18px;
+  font-weight: 400;
+}
+p {
+  color: blanchedalmond;
+  size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+h2 {
+  color: blanchedalmond;
+  size: 18px;
+  font-weight: 400;
+}
+a {
+    font-style: italic;
+    text-decoration: none;
+    color: #beaf98;
+    size: 16px;
+}
+body {
+  background: #2b2b2b;
+}
+li {
+    color: blanchedalmond;
+}
